@@ -5,6 +5,8 @@
 #include <winsock2.h>
 #include <ws2tcpip.h>
 
+// Written with help from ChatGPT and user docs
+
 #pragma comment(lib, "Ws2_32.lib")
 
 void scan_port(const std::string& host, unsigned short port) {
